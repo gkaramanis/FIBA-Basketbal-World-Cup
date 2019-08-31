@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567256601888.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2685822389",
+    "id" : "11FCA922",
+    "lastKnownWriteTime" : 1567257099,
+    "last_content_update" : 1567257099705,
+    "path" : "~/Documents/Projects/R/FIBA-BWC19/scrape.R",
+    "project_path" : "scrape.R",
+    "properties" : {
+        "cursorPosition" : "45,0",
+        "scrollLine" : "33"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
