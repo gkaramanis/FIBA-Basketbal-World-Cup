@@ -10,3 +10,4 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 ### TODO:  
 extract team captain from name  
 scrape club_country
+create data dictionary
