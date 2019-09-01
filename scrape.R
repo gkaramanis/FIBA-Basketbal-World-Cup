@@ -25,7 +25,7 @@ for (i in  seq(2, 64, 2)) {
 teams <- do.call(rbind, teams)
 
 # clean
-teams_clean <-teams %>%
+teams_clean <- teams %>%
   clean_names() %>% 
   rename(
     position = pos,
@@ -33,14 +33,17 @@ teams_clean <-teams %>%
     date_of_birth = age_date_of_birth,
     club_country = ctr
     ) %>% 
-  # extract dob, height and change types
+  # extract dob, height, captain and change types
   mutate(
     date_of_birth = as.Date(str_extract(date_of_birth, "\\d{4}-\\d{2}-\\d{2}")),
     height = as.numeric(str_extract(height, "\\d{1}\\.\\d{1,2}")),
+    captain = case_when(
+      str_detect(name, "\\(C\\)") ~ TRUE,
+      TRUE ~ NA),
+    name = str_remove(name, ".\\(C\\)"),
     number = as.numeric(number)
     ) %>%
-  # extract(name, "captain", " \\(C\\)", remove = FALSE) %>% 
-  # move country column to beginning
-  select(country, everything())
+  # reorder columns
+  select(country, 1:3, captain, everything())
 
-write_csv(teams_clean, here::here("data", "FIBA-WBC19-teams.csv"))
+# write_csv(teams_clean, here::here("data", "FIBA-WBC19-rosters.csv"))
