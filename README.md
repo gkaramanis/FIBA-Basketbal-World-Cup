@@ -8,6 +8,5 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 `FIBA-WBC19-rosters.csv:` Rosters scraped from Wikipedia (https://en.m.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_squads) (accessed 2019-08-31)  
 
 ### TODO:  
-extract team captain from name  
 scrape club_country
 create data dictionary
