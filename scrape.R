@@ -33,14 +33,14 @@ teams_clean <-teams %>%
     date_of_birth = age_date_of_birth,
     club_country = ctr
     ) %>% 
-  # extract dob, height and change type
+  # extract dob, height and change types
   mutate(
     date_of_birth = as.Date(str_extract(date_of_birth, "\\d{4}-\\d{2}-\\d{2}")),
-    height = as.numeric(str_extract(height, "\\d{1}.\\d{2}")),
+    height = as.numeric(str_extract(height, "\\d{1}\\.\\d{1,2}")),
     number = as.numeric(number)
     ) %>%
-  extract(name, "captain", " \\(C\\)", remove = FALSE) %>% 
+  # extract(name, "captain", " \\(C\\)", remove = FALSE) %>% 
   # move country column to beginning
   select(country, everything())
 
-# write_csv(teams_clean, here("data", "FIBA-WBC19-teams.csv"))
+write_csv(teams_clean, here::here("data", "FIBA-WBC19-teams.csv"))
