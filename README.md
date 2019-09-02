@@ -3,7 +3,7 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 
 ## R:
 `scrape.R:` Code for scraping and cleaning rosters  
-`height.R:` Height plot
+`height.R:` Height plot  
 `height-dist.R:` Height distribution plot
 
 ## Data  
