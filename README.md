@@ -4,6 +4,7 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 ## R:
 `scrape.R:` Code for scraping and cleaning rosters  
 `height.R:` Height plot
+`height-dist.R:` Height distribution plot
 
 ## Data  
 `FIBA-WBC19-rosters.csv:` Rosters scraped from Wikipedia (https://en.m.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_squads) (accessed 2019-08-31)  
