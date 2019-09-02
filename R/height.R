@@ -7,7 +7,6 @@ rosters <- read_csv(here::here("data", "FIBA-WBC19-rosters.csv"))
 
 
 hdf <- rosters %>%
-  mutate(age = year(today()) - year(date_of_birth)) %>%
   mutate(position = case_when(
     position == "SG" ~ "G",
     position == "PG" ~ "G",
