@@ -4,10 +4,15 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 ## R:
 `scrape.R:` Code for scraping and cleaning rosters  
 `scrape-results.R:` Code for scraping and cleaning results  
-`height.R:` Height plot  
-`height-dist.R:` Height distribution plot  
-`age-dist.R:` Age distribution plot  
-`shooting-stats.R:` First round shooting percentages plot  
+`scrape-playerstats.R:` Code for scraping and cleaning player stats  
+
+---  
+
+`height.R:` Height distribution  
+`height-dist.R:` Height distribution  
+`age-dist.R:` Age distribution  
+`shooting-stats.R:` First round shooting percentages  
+`teampoints-perc.R:` Players with most team points  
 
 ## Data  
 `FIBA-WBC19-rosters.csv:` Rosters scraped from [Wikipedia](https://en.m.wikipedia.org/wiki/2019_FIBA_Basketball_World_Cup_squads) (accessed 2019-08-31)  
