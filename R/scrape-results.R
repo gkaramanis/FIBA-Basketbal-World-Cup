@@ -17,4 +17,4 @@ results <- html_table(tbls[[1]]) %>%
   select(date, home = home_neutral, pts_home = pts_2, visitor = visitor_neutral, pts_visitor = pts) %>%
   mutate(date = ymd(parse_date_time(date, "a b d Y")))
   
-write.csv(results, here::here("data", "FIBA-WBC19-results.csv"))
+write_csv(results, here::here("data", "FIBA-WBC19-results.csv"))
