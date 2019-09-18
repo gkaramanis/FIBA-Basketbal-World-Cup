@@ -44,4 +44,4 @@ player_stats <- html_table(tbls[[1]]) %>%
               "points"
               ))
 
-# write_csv(player_stats, here::here("data", "FIBA-WBC19-playerstats.csv"))
+write_csv(player_stats, here::here("data", "FIBA-WBC19-playerstats.csv"))
