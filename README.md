@@ -1,7 +1,7 @@
 # 2019 FIBA Basketball World Cup  
 Data from the 18th tournament of the FIBA Basketball World Cup for men's national basketball teams  
 
-## R:
+## R  
 `scrape.R:` Code for scraping and cleaning rosters  
 `scrape-results.R:` Code for scraping and cleaning results  
 `scrape-playerstats.R:` Code for scraping and cleaning player stats  
@@ -23,5 +23,15 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 `FIBA-WBC19-venues.csv:` Venues of the 2019 Tournament  
 `FIBA-WBC19-history.csv:` Winners of previous tournaments  
 
-### TODO:  
+### TODO  
 create data dictionary
+
+## Figures  
+<div class="row"> 
+  <div class="column">
+    <a href=""><img src="figures/teampoints-game.png"></a>
+    <a href=""><img src="figures/shooting-stats.png"></a>
+    <a href=""><img src="figures/height-dist.png"></a>
+  </div>
+  </div>
+    
