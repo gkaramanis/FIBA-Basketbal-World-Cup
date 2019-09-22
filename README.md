@@ -24,5 +24,4 @@ Data from the 18th tournament of the FIBA Basketball World Cup for men's nationa
 `FIBA-WBC19-history.csv:` Winners of previous tournaments  
 
 ### TODO:  
-scrape club_country  
 create data dictionary
