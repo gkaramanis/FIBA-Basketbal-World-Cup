@@ -20,6 +20,7 @@ teams = list()
 for (i in  seq(2, 64, 2)) {
   team <- html_table(tbls[[i]], fill = TRUE)
   team$country <- countries[i/2]
+  team$Ctr. <- html_node(html_nodes(tbls[[i]], "tbody tr:not(:first-child)"), ".flagicon a") %>% xml_attr("title")
   teams[[i]] <- team
 }
 teams <- do.call(rbind, teams)
