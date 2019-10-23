@@ -2,25 +2,11 @@
 library(countrycode)
 library(tidyverse)
 library(here)
-#country names
-
 # extract country names ---------------------------------------------------
-# first aproximation
-# filter_es <- colnames(countrycode::codelist)[str_detect(colnames(countrycode::codelist),"es")]
-# names_en_es_all <- countrycode::codelist  %>%  as_tibble() %>% 
-#   select(country.name.en,short ,filter_es) 
 
 # getting shorts, and the iso codes, as they might be usefull for maps and flags
 countries_for_join <- countrycode::codelist %>% 
 select(cldr.short.en,cldr.short.es,iso2c,iso3c,un.name.en,country.name.en)
-
-# https://github.com/vincentarelbundock/countrycode/issues/211
-# library(countrycode)
-# library(tidyverse)
-# countrycode::codelist %>%
-#   select(cldr.short.en,cldr.short.es,iso2c,iso3c,un.name.en,country.name.en) %>%
-#   filter(iso2c=="CI")
-#
 
 # apply to FIBA-WBC-history.csv specific dataset -----------------------------------------------
 
@@ -73,9 +59,6 @@ history_translation <- history_translation %>%
   union_all(yugoslavia_code_data) %>% 
   union_all(soviet_union_code_data) %>% 
   union_all(philippines_code_data) 
-#   left_join(yugoslavia_code_data,by= "country") %>% 
-#   left_join(soviet_union_code_data,by= "country") %>% 
-#   left_join(philippines_code_data,by= "country")
 
 # ok , have some NA's in iso codes as they do not exist anymore.
 history_translation %>% 
@@ -180,17 +163,163 @@ rosters_base_translation <- rosters_base %>%
 
 
 # readr::write_csv(rosters_base_translation,path = here::here("data-es","FIBA-WBC19-lista_jugadores.csv"))
-
+# rosters_base_translation <- readr::read_csv(here::here("data-es","FIBA-WBC19-lista_jugadores.csv"))
+# roster_countries_join_cleaned <- readr::read_csv(here::here("data-es","roster_paises_traduccion.csv"))
 
 # FIBA-WBC19-playerstats.csv ----------------------------------------------
 
 playerstats_base <- readr::read_csv(here::here("data","FIBA-WBC19-playerstats.csv")) %>% janitor::clean_names()
 
+playerstats_base_join <- playerstats_base %>% 
+  left_join(roster_countries_join_cleaned,by=c("team"="country")) %>% 
+  select(player,pais,games,minutes_played,
+         field_goals,field_goal_attempts,field_goal_percentage,
+         three_point_field_goals,three_point_field_goal_attempts,three_point_field_goal_percentage,
+         two_point_field_goals,two_point_field_goal_attempts,two_point_field_goal_percentage,
+         effective_field_goal_percentage ,free_throws,free_throws_attempts,free_throws_percentage,
+         offensive_rebounds,defensive_rebounds,total_rebounds,
+         assists,steals,blocks,turnovers,personal_fouls,points) %>% 
+    # http://www.costaricaspanish.net/2011/09/basketball-terms-in-spanish/
+    # https://es.wikipedia.org/wiki/Rebote_(baloncesto)
+    rename(jugador=player,
+           
+           partidos=games,
+           minutos_jugados=minutes_played,
+           
+           goles_de_campo=field_goals,
+           goles_de_campo_intentos=field_goal_attempts,
+           goles_de_campo_porcentaje=field_goal_percentage,
+           
+           goles_de_campo_tres_puntos=three_point_field_goals,
+           goles_de_campo_tres_puntos_intentos=three_point_field_goal_attempts,
+           goles_de_campo_tres_puntos_porcentaje=three_point_field_goal_percentage,
+           
+           goles_de_campo_dos_puntos=two_point_field_goals,
+           goles_de_campo_dos_puntos_intentos=two_point_field_goal_attempts,
+           goles_de_campo_dos_puntos_porcentaje=two_point_field_goal_percentage,
+           
+           goles_de_campo_efectividad_porcentaje=effective_field_goal_percentage ,
+           tiros_libres=free_throws,
+           tiros_libres_intentos=free_throws_attempts,
+           tiros_libres_porcentaje=free_throws_percentage,
+           
+           rebotes_ofensiva=offensive_rebounds,
+           rebotes_defensiva=defensive_rebounds,
+           rebotes_total=total_rebounds,
+           
+           asistencias=assists,
+           robadas=steals,
+           bloqueos=blocks,
+           pelotas_perdidas=turnovers,
+           faltas_personales=personal_fouls,
+           puntos=points)
+# readr::write_csv(playerstats_base_join,path = here::here("data-es","FIBA-WBC19-estadisticas_jugadores.csv"))
+
+
+
 # FIBA-WBC19-results.csv ----------------------------------------------
+# roster_countries_join_cleaned <- readr::read_csv(here::here("data-es","roster_paises_traduccion.csv"))
 
 results_base <- readr::read_csv(here::here("data","FIBA-WBC19-results.csv")) %>% janitor::clean_names()
+# south korea its shown as "korea", so it generates NA, will clean.
+results_base_fix <- results_base %>% 
+  mutate(home=if_else(home=="Korea","South Korea",home)) %>% 
+  mutate(visitor=if_else(visitor=="Korea","South Korea",visitor)) 
+
+
+roster_countries_join_cleaned_tmp <- roster_countries_join_cleaned %>% 
+  select(country,pais)
+
+results_base_join <- results_base_fix %>% 
+  left_join(roster_countries_join_cleaned_tmp,by=c("home"="country") ) %>% 
+  rename(local=pais) %>%
+  left_join(roster_countries_join_cleaned_tmp,by=c("visitor"="country") ) %>% 
+  rename(visitante=pais) %>% 
+  select(-home,-visitor) %>% 
+  rename(
+    fecha=date,
+    puntos_local=pts_home,
+    puntos_visitante=pts_visitor
+  ) %>% 
+  select(fecha,
+         local,puntos_local,visitante,puntos_visitante)
+# every miss is korea
+results_base_join %>% filter(!complete.cases(results_base_join))
+# readr::write_csv(results_base_join,path = here::here("data-es","FIBA-WBC19-resulados.csv"))
 
 # FIBA-WBC19-totalteamstats.csv ----------------------------------------------
 
 totalteamstats_base <- readr::read_csv(here::here("data-es","FIBA-WBC19-totalteamstats_fix.csv")) %>% janitor::clean_names()
+totalteamstats_base_fix <- totalteamstats_base %>% 
+  mutate(team=if_else(team=="Korea","South Korea",team))
+roster_countries_join_cleaned_tmp <- roster_countries_join_cleaned %>% 
+  select(country,pais) 
 
+totalteamstats_base_joined <- totalteamstats_base_fix %>% 
+  left_join(roster_countries_join_cleaned_tmp,by = c("team"="country")) %>% 
+  # colnames()
+  select(pais,
+         games,
+         field_goals_made,
+         field_goals_attempted,
+         field_goals_percentage,
+         three_points_made,
+         three_points_attempted,
+         three_points_percentage,
+         two_points_made,
+         two_points_attempted,
+         two_points_percentage,
+         free_throws_made,
+         free_throws_attempted,
+         free_throws_percentage,
+         offensive_rebounds,
+         defensive_rebounds,
+         total_rebounds,
+         assists,
+         steals,
+         blocks,
+         turnovers,
+         personal_fouls,
+         points) %>% 
+  rename(
+    partidos=games,
+    goles_de_campo_realizados=field_goals_made,
+    goles_de_campo_intentos=field_goals_attempted,
+    goles_de_campo_porcentaje=field_goals_percentage,
+    goles_de_campo_tres_puntos_realizados=three_points_made,
+    goles_de_campo_tres_puntos_intentos=three_points_attempted,
+    goles_de_campo_tres_puntos_porcentaje=three_points_percentage,
+    goles_de_campo_dos_puntos_realizados=two_points_made,
+    goles_de_campo_dos_puntos_intentos=two_points_attempted,
+    goles_de_campo_dos_puntos_porcentaje=two_points_percentage,
+    tiros_libres_realizados=free_throws_made,
+    tiros_libres_intentos=free_throws_attempted,
+    tiros_libres_porcentaje=free_throws_percentage,
+    rebotes_ofensiva=offensive_rebounds,
+    rebotes_defensiva=defensive_rebounds,
+    rebotes_total=total_rebounds,
+    asistencias=assists,
+    robadas=steals,
+    bloqueos=blocks,
+    pelotas_perdidas=turnovers,
+    faltas_personales=personal_fouls,
+    puntos=points)
+
+# readr::write_csv(totalteamstats_base_joined,path = here::here("data-es","FIBA-WBC19-estadisticas_totales_equipos.csv"))
+
+# FIBA-WBC19-totalteamstats.csv ----------------------------------------------
+
+venues_base <- readr::read_csv(here::here("data-es","FIBA-WBC19-venues.csv")) %>% janitor::clean_names()
+
+venues_base_es <- venues_base %>% rename(ubicacion=location,
+                                         nombre=name,
+                                         capacidad=capacity) %>% 
+  mutate(nombre=str_replace(nombre,"Nanjing Youth Olympic Sports Park Gymnasium","Parque Gimnasio de Jóvenes Olimpiadas de Nanjing")) %>% 
+  mutate(nombre=str_replace(nombre,"Wukesong Arena","Arena de Wukesong")) %>% 
+  mutate(nombre=str_replace(nombre,"Shanghai Oriental Sports Center","Centro de Deportes oriental de Shanghai")) %>% 
+  mutate(nombre=str_replace(nombre,"Wuhan Gymnasium","Gimnasio de Wuhan")) %>% 
+  mutate(nombre=str_replace(nombre,"Dongguan Cultural and Sports Centre","Centro Cultural y de Deportes de Dongguan")) %>% 
+  mutate(nombre=str_replace(nombre,"Foshan International Sports & Cultural Arena","Arena Internacional Cultural y de Deportes de Foshan")) %>% 
+  mutate(nombre=str_replace(nombre,"Guangzhou Gymnasium","Gimnasio de Guangzhou")) %>% 
+  mutate(nombre=str_replace(nombre,"Shenzhen Bay Sports Centre","Centro de deportes de la Bahía de Shenzhen"))
+# readr::write_csv(venues_base_es,path = here::here("data-es","FIBA-WBC19-estadios.csv"))
