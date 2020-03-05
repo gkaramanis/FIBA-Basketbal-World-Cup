@@ -1,6 +1,6 @@
 # 2019 FIBA Basketball World Cup  
 Data from the 18th tournament of the FIBA Basketball World Cup for men's national basketball teams  
-Spanish translation by @jas1.
+Spanish translation by [Julio Spairani](https://github.com/jas1)  
 
 ## R  
 `scrape.R:` Code for scraping and cleaning rosters  
