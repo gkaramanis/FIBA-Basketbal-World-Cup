@@ -1,0 +1,385 @@
+pais,posicion,numero,nombre,capitan,fecha_de_nacimiento,altura,club,club_pais
+China,Escolta(SG),1,Zhao Rui,NA,1996-01-14,1.93,Guangdong Southern Tigers,China
+China,Base(PG),5,Fang Shuo,NA,1990-09-07,1.88,Beijing Ducks,China
+China,Escolta(SG),6,Guo Ailun,NA,1993-11-14,1.92,Liaoning Flying Leopards,China
+China,Alero(SF),9,Zhai Xiaochuan,NA,1993-03-24,2.05,Beijing Ducks,China
+China,Ala-pívot(PF),11,Yi Jianlian,TRUE,1987-10-27,2.12,Guangdong Southern Tigers,China
+China,Alero(SF),13,Kelanbaike Makan,NA,1992-09-27,1.97,Xinjiang Flying Tigers,China
+China,Pívot(C),15,Zhou Qi,NA,1996-01-16,2.17,Xinjiang Flying Tigers,China
+China,Guardia(G),17,Sun Minghui,NA,1996-04-26,1.92,Zhejiang Lions,China
+China,Ala-pívot(PF),20,Ren Junfei,NA,1990-02-04,2.03,Guangdong Southern Tigers,China
+China,Alero(F),23,Abudushalamu Abudurexiti,NA,1996-05-20,2.03,Xinjiang Flying Tigers,China
+China,Base(PG),24,Zhao Jiwei,NA,1995-08-25,1.85,Liaoning Flying Leopards,China
+China,Pívot(C),31,Wang Zhelin,NA,1994-01-20,2.14,Fujian Sturgeons,China
+Costa de Marfil,Escolta(SG),1,"Abouo, Charles",NA,1989-04-11,1.94,ADA Blois Basket 41,France
+Costa de Marfil,Base(PG),6,"Pamba, Bryan",NA,1992-01-07,1.91,Caen Basket Calvados,France
+Costa de Marfil,Ala-pívot(PF),7,"Baru, Adjehi",NA,1991-12-10,2.07,Leyma Básquet Coruña,Spain
+Costa de Marfil,Pívot(C),8,"Zerbo, Frejus",NA,1989-04-02,2.13,JL Bourg en Bresse,France
+Costa de Marfil,Base(PG),10,"Diabate, Souleyman",NA,1987-07-21,1.82,SLUC Nancy Basket,France
+Costa de Marfil,Alero(F),11,"Fofana, Vafessa",NA,1992-06-12,2.01,Cholet Basket,France
+Costa de Marfil,Ala-pívot(PF),12,"Coulibaly, Bali",NA,1995-07-03,2.01,TOAC Basket,France
+Costa de Marfil,Alero(F),13,"Bamba, Tiegbe",NA,1991-01-21,2.01,C'Chartres Basket,France
+Costa de Marfil,Escolta(SG),14,"Edi, Guy Landry",NA,1988-12-26,1.99,Champagne Châlons-Reims Basket,France
+Costa de Marfil,Pívot(C),15,"Koné, Mohamed",NA,1981-03-24,2.1,JA Vichy Clermont,France
+Costa de Marfil,Ala-pívot(PF),21,"Thompson, Deon",NA,1988-09-16,2.04,Unicaja Baloncesto,Spain
+Costa de Marfil,Base(PG),30,"Sie, Abraham",NA,1999-08-31,1.79,Abidjan Basket Club,Ivory Coast
+Polonia,Pívot(C),2,"Balcerowski, Aleksander",NA,2000-11-19,2.15,Herbalife Gran Canaria,Spain
+Polonia,Alero(SF),3,"Sokołowski, Michał",NA,1992-12-11,1.96,Stelmet Zielona Góra,Poland
+Polonia,Ala-pívot(PF),5,"Cel, Aaron",NA,1987-03-04,2.05,Twarde Pierniki Toruń,Poland
+Polonia,Base(PG),6,"Slaughter, A.J.",NA,1987-08-03,1.91,Real Betis Baloncesto,Spain
+Polonia,Escolta(SG),9,"Ponitka, Mateusz",NA,1993-08-29,1.98,Lokomotiv Kuban,Russia
+Polonia,Alero(SF),12,"Waczyński, Adam",NA,1989-10-15,1.95,Unicaja Baloncesto,Spain
+Polonia,Pívot(C),13,"Olejniczak, Dominik",NA,1996-07-01,2.08,Ole Miss Rebels,United States
+Polonia,Base(PG),15,"Łączyński, Kamil",NA,1989-04-17,1.83,Anwil,Poland
+Polonia,Escolta(SG),33,"Gruszecki, Karol",NA,1989-11-04,1.96,Twarde Pierniki Toruń,Poland
+Polonia,Pívot(C),34,"Hrycaniuk, Adam",NA,1984-03-15,2.06,Arka Gdynia,Poland
+Polonia,Base(PG),55,"Koszarek, Łukasz",NA,1984-01-12,1.87,Stelmet Zielona Góra,Poland
+Polonia,Ala-pívot(PF),77,"Kulig, Damian",NA,1987-06-23,2.06,İstanbul BBSK,Turkey
+Venezuela,Base(PG),5,"Vargas, Gregory",NA,1986-02-18,1.8,Maccabi Haifa,Israel
+Venezuela,Escolta(SG),7,"Zamora, Jhornan",NA,1989-01-30,1.96,Évreux,France
+Venezuela,Escolta(SG),9,"Chourio, Pedro",NA,1990-03-13,1.86,Trotamundos,Venezuela
+Venezuela,Alero(SF),10,"Vargas, José",NA,1982-01-23,1.96,Guaros de Lara,Venezuela
+Venezuela,Ala-pívot(PF),11,"Bethelmy, Luis",NA,1986-10-14,2,Guaros de Lara,Venezuela
+Venezuela,Alero(F),13,"Pérez, Anthony",NA,1993-09-29,2.05,Trotamundos,Venezuela
+Venezuela,Ala-pívot(PF),14,"Ruiz, Miguel",NA,1990-12-20,2.02,Trotamundos de Carabobo,Venezuela
+Venezuela,Pívot(C),15,"Graterol, Windi",NA,1986-09-10,2.04,Boca Juniors,Argentina
+Venezuela,Base(PG),19,"Guillent, Heissler",NA,1986-12-17,1.83,Guaros de Lara,Venezuela
+Venezuela,Alero(SF),21,"Lewis, Dwight",NA,1987-10-07,1.98,Gimnasia Comodoro,Argentina
+Venezuela,Ala-pívot(PF),23,"Carrera, Michael",NA,1993-01-07,1.96,Trotamundos de Carabobo,Venezuela
+Venezuela,Ala-pívot(PF),43,"Colmenares, Néstor",NA,1987-09-05,2.03,Guaros de Lara,Venezuela
+Argentina,Pívot(C),1,"Caffaro, Agustín",NA,1995-02-06,2.1,San Lorenzo,Argentina
+Argentina,Base(PG),3,"Vildoza, Luca",NA,1995-08-11,1.91,Saski Baskonia,Spain
+Argentina,Ala-pívot(PF),4,"Scola, Luis",TRUE,1980-04-30,2.06,Shanghai Sharks,China
+Argentina,Base(PG),7,"Campazzo, Facundo",NA,1991-03-23,1.81,Real Madrid,Spain
+Argentina,Base(PG),8,"Laprovíttola, Nicolás",NA,1990-01-31,1.93,Real Madrid,Spain
+Argentina,Alero(SF),9,"Brussino, Nicolás",NA,1993-03-02,2.03,Basket Zaragoza,Spain
+Argentina,Escolta(SG),10,"Fjellerup, Máximo",NA,1997-11-27,1.97,San Lorenzo,Argentina
+Argentina,Pívot(C),12,"Delía, Marcos",NA,1992-04-08,2.1,Fuerza Regia,Mexico
+Argentina,Ala-pívot(PF),14,"Deck, Gabriel",NA,1995-02-08,2,Real Madrid,Spain
+Argentina,Escolta(SG),25,"Redivo, Lucio",NA,1994-02-12,1.83,Breogán,Spain
+Argentina,Alero(SF),29,"Garino, Patricio",NA,1993-03-17,2.01,Saski Baskonia,Spain
+Argentina,Ala-pívot(PF),83,"Gallizzi, Tayavek",NA,1993-02-08,2.06,Regatas Corrientes,Argentina
+Nigeria,Base(PG),1,"Iroegbu, Ike",NA,1995-03-14,1.88,Lietkabelis Panevėžys,Lithuania
+Nigeria,Base(PG),4,"Uzoh, Ben",NA,1988-03-18,1.91,Caballeros de Culiacán,Mexico
+Nigeria,Escolta(SG),5,"Okoye, Stan",NA,1991-04-10,1.97,Gran Canaria,Spain
+Nigeria,Ala-pívot(PF),6,"Diogu, Ike",NA,1983-09-11,2.06,Shimane Susanoo Magic,Japan
+Nigeria,Alero(SF),7,"Aminu, Al-Farouq",NA,1990-09-21,2.06,Orlando Magic,United States
+Nigeria,Pívot(C),8,"Udoh, Ekpe",NA,1987-05-20,2.08,Beijing Ducks,China
+Nigeria,Ala-pívot(PF),10,"Metu, Chimezie",NA,1997-03-22,2.08,San Antonio Spurs,United States
+Nigeria,Pívot(C),13,"Zanna, Talib",NA,1990-10-01,2.06,Ironi Nes Ziona,Israel
+Nigeria,Escolta(SG),20,"Okogie, Josh",NA,1998-09-01,1.93,Minnesota Timberwolves,United States
+Nigeria,Base(PG),22,"Vincent, Gabe",NA,1996-06-14,1.91,Stockton Kings,United States
+Nigeria,Alero(SF),33,"Nwora, Jordan",NA,1998-09-09,2.03,Louisville Cardinals,United States
+Nigeria,Pívot(C),50,"Eric, Michael",NA,1988-06-24,2.11,Saski Baskonia,Spain
+Rusia,Base(PG),2,"Sopin, Andrey",NA,1997-07-07,1.86,MBA,Russia
+Rusia,Alero(SF),3,"Karasev, Sergey",NA,1993-10-26,2.01,Zenit Saint Petersburg,Russia
+Rusia,Escolta(SG),4,"Baburin, Evgeny",NA,1987-07-04,1.9,Nizhny Novgorod,Russia
+Rusia,Escolta(SG),6,"Motovilov, Grigory",NA,1998-02-07,1.91,Spartak Primorye,Russia
+Rusia,Escolta(SG),7,"Fridzon, Vitaly",NA,1985-10-14,1.95,Lokomotiv Kuban,Russia
+Rusia,Pívot(C),8,"Ivlev, Vladimir",NA,1990-02-28,2.07,Lokomotiv Kuban,Russia
+Rusia,Ala-pívot(PF),11,"Antonov, Semen",NA,1989-07-18,2.02,CSKA Moscow,Russia
+Rusia,Ala-pívot(PF),12,"Zubkov, Andrey",NA,1991-06-29,2.05,Khimki,Russia
+Rusia,Pívot(C),20,"Vorontsevich, Andrey",NA,1987-07-17,2.07,CSKA Moscow,Russia
+Rusia,Base(PG),30,"Kulagin, Mikhail",NA,1994-08-04,1.92,CSKA Moscow,Russia
+Rusia,Ala-pívot(PF),31,"Valiev, Evgeny",NA,1990-05-03,2.05,Zenit Saint Petersburg,Russia
+Rusia,Alero(SF),41,"Kurbanov, Nikita",NA,1986-10-05,2.02,CSKA Moscow,Russia
+Corea del Sur,Escolta(SG),1,Park Chan-hee,NA,1987-04-17,1.91,Incheon Electroland Elephants,South Korea
+Corea del Sur,Alero(SF),2,Choi Jun-yong,NA,1994-04-04,2,Seoul SK Knights,South Korea
+Corea del Sur,Escolta(SG),3,Lee Jung-hyun,NA,1987-03-03,1.91,Jeonju KCC Egis,South Korea
+Corea del Sur,Base(PG),5,Kim Sun-hyung,NA,1988-07-01,1.87,Seoul SK Knights,South Korea
+Corea del Sur,Base(PG),6,Heo Hoon,NA,1995-08-16,1.81,Busan KT Sonicboom,South Korea
+Corea del Sur,Alero(SF),11,Yang Hee-jong,NA,1984-05-11,1.93,Anyang KGC,South Korea
+Corea del Sur,Ala-pívot(PF),12,Jeong Hyo-geun,NA,1993-12-14,2,Incheon Electroland Elephants,South Korea
+Corea del Sur,Ala-pívot(PF),13,Kang Sang-jae,NA,1994-12-31,2.02,Incheon Electroland Elephants,South Korea
+Corea del Sur,Pívot(C),15,Kim Jong-kyu,NA,1991-07-03,2.06,Changwon LG Sakers,South Korea
+Corea del Sur,Pívot(C),20,Ricardo Ratliffe,NA,1989-02-20,2.03,Ulsan Mobis Phoebus,South Korea
+Corea del Sur,Ala-pívot(PF),33,Lee Seoung-hyun,NA,1992-04-16,1.99,Goyang Orions,South Korea
+Corea del Sur,Escolta(SG),43,Lee Dae-sung,NA,1990-05-30,1.9,Ulsan Mobis Phoebus,South Korea
+Irán,Pívot(C),4,"Mirzaei, Meisam",NA,1992-04-15,2.08,Petrochimi,Iran
+Irán,Base(PG),5,"Mashayekhi, Sajjad",NA,1994-02-23,1.88,Petrochimi,Iran
+Irán,Escolta(SG),6,"Hosseinzadeh, Hamed",NA,1990-10-06,1.87,Chemidor,Iran
+Irán,Escolta(SG),8,"Yakhchali, Behnam",NA,1997-12-31,1.95,Nanjing Monkey,China
+Irán,Base(PG),9,"Mozaffari, Rasoul",NA,1994-07-22,1.89,Naft Abadan,Iran
+Irán,Alero(SF),13,"Jamshidi, Mohammad",NA,1996-07-30,1.99,Chemidor,Iran
+Irán,Alero(SF),14,"Nikkhah Bahrami, Samad",TRUE,1983-05-11,1.98,Petrochimi,Iran
+Irán,Pívot(C),15,"Haddadi, Hamed",NA,1985-05-19,2.18,Champville,Lebanon
+Irán,Ala-pívot(PF),19,"Zangeneh, Arman",NA,1993-06-16,2.06,Chemidor,Iran
+Irán,Ala-pívot(PF),20,"Rostampour, Mike",NA,1991-12-20,2.1,Naft Abadan,Iran
+Irán,Pívot(C),23,"Geramipoor, Aaron",NA,1992-09-11,2.14,Free agent,NA
+Irán,Ala-pívot(PF),77,"Hassanzadeh, Mohammad",NA,1990-10-06,2.09,Naft Abadan,Iran
+Puerto Rico,Alero(F),0,"Piñeiro, Isaiah",NA,1997-02-28,2.01,Sacramento Kings,United States
+Puerto Rico,Ala-pívot(PF),1,"Clemente, Ramón",NA,1985-12-11,2.01,San Lorenzo,Argentina
+Puerto Rico,Ala-pívot(PF),7,"Collier, Devon",NA,1991-01-20,2.03,Capitanes de Arecibo,Puerto Rico
+Puerto Rico,Base(PG),9,"Browne, Gary",NA,1994-03-24,1.85,Ironi Nes Ziona,Israel
+Puerto Rico,Pívot(C),12,"Díaz, Jorge",NA,1989-11-13,2.11,Piratas de Quebradillas,Puerto Rico
+Puerto Rico,Base(PG),13,"Rodríguez, Ángel",NA,1992-12-05,1.8,Rio Grande Valley Vipers,United States
+Puerto Rico,Guardia(G),24,"Clavell, Gian",NA,1993-11-26,1.93,Movistar Estudiantes,Spain
+Puerto Rico,Escolta(SG),33,"Huertas, David",TRUE,1987-06-02,1.96,Leñadores de Durango,Mexico
+Puerto Rico,Alero(F),34,"Balkman, Renaldo",NA,1984-07-14,2.03,San Miguel Alab Pilipinas,Philippines
+Puerto Rico,Guardia/Alero(G/F),42,"Franklin, Alex",NA,1988-07-11,1.98,Piratas de Quebradillas,Puerto Rico
+Puerto Rico,Pívot(C),43,"Brady, Chris",NA,1995-09-15,2.08,Fukushima Firebonds,Japan
+Puerto Rico,Guardia(G),44,"Mojica, Javier",NA,1984-08-31,1.93,Leñadores de Durango,Mexico
+España,Base(PG),1,"Colom, Quino",NA,1988-11-01,1.88,Valencia Basket,Spain
+España,Alero(SF),5,"Fernández, Rudy",NA,1985-04-04,1.96,Real Madrid,Spain
+España,Escolta(SG),8,"Ribas, Pau",NA,1987-03-02,1.97,FC Barcelona,Spain
+España,Base(PG),9,"Rubio, Ricky",NA,1990-10-21,1.94,Phoenix Suns,United States
+España,Ala-pívot(PF),10,"Claver, Víctor",NA,1988-08-30,2.07,FC Barcelona,Spain
+España,Pívot(C),13,"Gasol, Marc",NA,1985-01-29,2.17,Toronto Raptors,Canada
+España,Pívot(C),14,"Hernangómez, Willy",NA,1994-05-23,2.11,Charlotte Hornets,United States
+España,Ala-pívot(PF),18,"Oriola, Pierre",NA,1992-10-25,2.06,FC Barcelona,Spain
+España,Alero(SF),22,"Rabaseda, Xavi",NA,1989-02-24,2.01,CB Gran Canaria,Spain
+España,Escolta(SG),23,"Llull, Sergio",NA,1987-11-15,1.91,Real Madrid,Spain
+España,Alero(SF),33,"Beirán, Javier",NA,1987-05-22,2,CB Gran Canaria,Spain
+España,Ala-pívot(PF),41,"Hernangómez, Juan",NA,1995-09-22,2.07,Denver Nuggets,United States
+Túnez,Base(PG),4,"Abada, Omar",NA,1995-04-20,1.89,Saint-Chamond Basket,France
+Túnez,Alero(SF),5,"Chennoufi, Ziyed",NA,1988-11-29,2.03,Club Africain,Tunisia
+Túnez,Escolta(SG),7,"El Mabrouk, Mourad",NA,1989-10-19,1.89,Hermine Nantes Basket,France
+Túnez,Escolta(SG),8,"Mouhli, Omar",NA,1989-03-19,1.95,Étoile Sportive du Sahel,Tunisia
+Túnez,Alero(SF),9,"Hadidane, Mohamed",NA,1988-04-27,2.06,Stade Nabeulien,Tunisia
+Túnez,Pívot(C),11,"Ghyaza, Mokhtar",NA,1989-11-15,2.08,Club Africain,Tunisia
+Túnez,Ala-pívot(PF),12,"Ben Romdhane, Makram",NA,1989-03-27,2.06,Saint-Chamond Basket,France
+Túnez,Ala-pívot(PF),19,"Abbassi, Mohamed",NA,1997-03-28,2.04,ES Radès,Tunisia
+Túnez,Escolta(SG),20,"Roll, Michael (NP)",NA,1987-04-12,1.98,Olimpia Milano,Italy
+Túnez,Ala-pívot(PF),45,"Slimane, Radhouane",NA,1990-08-16,2.07,Étoile Sportive du Sahel,Tunisia
+Túnez,Pívot(C),50,"Mejri, Salah",NA,1991-06-15,2.19,Dallas Mavericks,United States
+Túnez,Base(PG),66,"Knioua, Nizar",NA,1993-06-08,1.89,Étoile Sportive du Sahel,Tunisia
+Angola,Base(PG),1,"Domingos, Gerson",NA,1996-04-16,1.79,Interclube,Angola
+Angola,Pívot(C),2,"Moreira, Yanick",NA,1991-07-31,2.05,Virtus Bologna,Italy
+Angola,Escolta(SG),3,"Gonçalves, Jerson",NA,1996-03-29,1.93,Petro de Luanda,Angola
+Angola,Alero(SF),4,"Cipriano, Olímpio",NA,1982-04-09,1.92,Petro de Luanda,Angola
+Angola,Escolta(SG),6,"Morais, Carlos",NA,1985-10-16,1.91,Petro de Luanda,Angola
+Angola,Ala-pívot(PF),9,"Paulo, Leonel",NA,1986-04-30,1.98,Petro de Luanda,Angola
+Angola,Alero(SF),10,"Antonio, Jose",NA,1990-07-31,1.97,Petro de Luanda,Angola
+Angola,Ala-pívot(PF),15,"Mingas, Eduardo",TRUE,1979-01-29,1.98,Primeiro de Agosto,Angola
+Angola,Pívot(C),16,"Mbunga, Hermenegildo",NA,1985-09-04,2.06,Benfica do Libolo,Angola
+Angola,Ala-pívot(PF),23,"Moore, Reggie",NA,1981-03-31,2.03,Petro de Luanda,Angola
+Angola,Pívot(C),32,"Joaquim, Valdelício",NA,1990-04-15,2.09,Obras Sanitarias,Argentina
+Angola,Base(PG),37,"Conceição, Jacques",NA,1989-09-04,1.9,Primeiro de Agosto,Angola
+Italia,Escolta(SG),0,"Della Valle, Amedeo",NA,1993-04-11,1.94,Olimpia Milano,Italy
+Italia,Escolta(SG),3,"Belinelli, Marco",NA,1986-03-25,1.96,San Antonio Spurs,United States
+Italia,Alero(SF),5,"Gentile, Alessandro",NA,1992-11-12,2,Estudiantes,Spain
+Italia,Pívot(C),6,"Biligha, Paul",NA,1990-05-31,2,Olimpia Milano,Italy
+Italia,Base(PG),7,"Vitali, Luca",NA,1986-05-09,2.01,Brescia Leonessa,Italy
+Italia,Ala-pívot(PF),8,"Gallinari, Danilo",NA,1988-08-08,2.08,Oklahoma City Thunder,United States
+Italia,Escolta(SG),10,"Hackett, Daniel",NA,1987-12-19,1.98,CSKA Moscow,Russia
+Italia,Base(PG),12,"Filloy, Ariel",NA,1987-03-11,1.9,Reyer Venezia,Italy
+Italia,Ala-pívot(PF),15,"Brooks, Jeff",NA,1989-06-12,2.03,Olimpia Milano,Italy
+Italia,Pívot(C),16,"Tessitori, Amedeo",NA,1994-10-07,2.08,Universo Treviso Basket,Italy
+Italia,Alero(SF),23,"Abass, Awudu",NA,1993-01-27,2,Brescia Leonessa,Italy
+Italia,Alero(SF),70,"Datome, Luigi",TRUE,1987-11-23,2.03,Fenerbahçe,Turkey
+Filipinas,Pívot(C),1,"Blatche, Andray",NA,1986-08-22,2.1,Tianjin Gold Lions,China
+Filipinas,Base(PG),3,"Dalistan, Paul",NA,1989-02-14,1.82,Magnolia Hotshots,Philippines
+Filipinas,Base(PG),4,"Ravena, Kiefer",NA,1993-10-27,1.85,NLEX Road Warriors,Philippines
+Filipinas,Alero(SF),5,"Norwood, Gabe",TRUE,1985-02-09,1.94,Rain or Shine Elasto Painters,Philippines
+Filipinas,Escolta(SG),8,"Bolick, Robert",NA,1995-09-13,1.82,NorthPort Batang Pier,Philippines
+Filipinas,Base(PG),14,"Barroca, Mark",NA,1986-04-25,1.76,Magnolia Hotshots,Philippines
+Filipinas,Pívot(C),15,"Fajardo, June Mar",NA,1989-11-17,2.08,San Miguel Beermen,Philippines
+Filipinas,Escolta(SG),16,"Pogoy, Roger",NA,1992-06-16,1.82,TNT KaTropa,Philippines
+Filipinas,Escolta(SG),17,"Perez, Jaymar",NA,1993-11-17,1.88,Columbian Dyip,Philippines
+Filipinas,Alero(SF),18,"Rosario, Troy",NA,1992-01-20,2,TNT KaTropa,Philippines
+Filipinas,Ala-pívot(PF),20,"Almazan, Raymond",NA,1989-08-02,2.01,Meralco Bolts,Philippines
+Filipinas,Ala-pívot(PF),25,"Aguilar, Japeth",NA,1987-01-25,2.08,Barangay Ginebra San Miguel,Philippines
+Serbia,Alero(SF),5,"Simonović, Marko",NA,1986-05-30,2.03,Zenit St. Petersburg,Russia
+Serbia,Escolta(SG),7,"Bogdanović, Bogdan",NA,1992-08-18,1.98,Sacramento Kings,United States
+Serbia,Alero(F),8,"Bjelica, Nemanja",NA,1988-05-09,2.08,Sacramento Kings,United States
+Serbia,Alero(F),11,"Lučić, Vladimir",NA,1989-06-17,2.03,Bayern Munich,Germany
+Serbia,Pívot(C),13,"Raduljica, Miroslav",TRUE,1988-01-05,2.13,Jiangsu Dragons,China
+Serbia,Ala-pívot(PF),14,"Birčević, Stefan",NA,1989-12-13,2.1,Baskets Bonn,Germany
+Serbia,Ala-pívot(PF),15,"Jokić, Nikola",NA,1995-02-19,2.13,Denver Nuggets,United States
+Serbia,Pívot(C),21,"Milutinov, Nikola",NA,1994-12-13,2.13,Olympiacos,Greece
+Serbia,Base(PG),22,"Micić, Vasilije",NA,1994-01-13,1.97,Anadolu Efes,Turkey
+Serbia,Escolta(SG),23,"Gudurić, Marko",NA,1995-03-08,2,Fenerbahçe,Turkey
+Serbia,Base(PG),24,"Jović, Stefan",NA,1990-11-03,1.99,Bayern Munich,Germany
+Serbia,Pívot(C),51,"Marjanović, Boban",NA,1988-08-15,2.21,Philadelphia 76ers,United States
+República Checa,Ala-pívot(PF),1,"Auda, Patrik",NA,1989-08-28,2.06,Boulazac Basket Dordogne,France
+República Checa,Base(PG),4,"Vyoral, Tomáš",NA,1992-09-28,1.9,ČEZ Nymburk,Czech Republic
+República Checa,Alero(SF),6,"Pumprla, Pavel",NA,1986-06-13,1.98,ČEZ Nymburk,Czech Republic
+República Checa,Alero(SF),7,"Hruban, Vojtěch",NA,1989-08-29,2.02,ČEZ Nymburk,Czech Republic
+República Checa,Base(PG),8,"Satoranský, Tomáš",NA,1991-10-30,2.01,Chicago Bulls,United States
+República Checa,Alero(SF),11,"Schilb, Blake",NA,1983-12-23,1.99,Champagne Basket,France
+República Checa,Pívot(C),12,"Balvín, Ondřej",NA,1992-09-20,2.17,CB Gran Canaria,Spain
+República Checa,Base(PG),13,"Šiřina, Jakub",NA,1987-11-21,1.86,Opava,Czech Republic
+República Checa,Pívot(C),15,"Peterka, Martin",NA,1995-01-12,2.03,ČEZ Nymburk,Czech Republic
+República Checa,Escolta(SG),17,"Bohačík, Jaromir",NA,1992-05-26,1.97,ČEZ Nymburk,Czech Republic
+República Checa,Alero(SF),23,"Palyza, Lukáš",NA,1989-11-10,2.03,BK Olomoucko,Czech Republic
+República Checa,Ala-pívot(PF),31,"Kriz, Martin",NA,1993-06-17,2,ČEZ Nymburk,Czech Republic
+Japón,Base(PG),3,"Ando, Seiya",NA,1993-07-15,1.8,Toyota Alvark,Japan
+Japón,Escolta(SG),6,"Hiejima, Makoto",NA,1990-08-11,1.91,Utsunomiya Brex,Japan
+Japón,Base(PG),7,"Shinoyama, Ryusei",NA,1988-07-20,1.78,Kawasaki Brave Thunders,Japan
+Japón,Ala-pívot(PF),8,"Hachimura, Rui",NA,1998-02-08,2.04,Washington Wizards,United States
+Japón,Ala-pívot(PF),10,"Takeuchi, Kosuke",NA,1985-01-29,2.08,Utsunomiya Brex,Japan
+Japón,Alero(SF),12,"Watanabe, Yuta",NA,1996-10-27,2.06,Memphis Grizzlies,United States
+Japón,Escolta(SG),13,"Ando, Shuto",NA,1994-06-13,1.91,Nagoya Diamond Dolphins,Japan
+Japón,Ala-pívot(PF),15,"Takeuchi, Joji",NA,1985-01-29,2.08,Toyota Alvark,Japan
+Japón,Alero(SF),18,"Baba, Yudai",NA,1995-11-07,1.98,Toyota Alvark,Japan
+Japón,Pívot(C),22,"Fazekas, Nick",NA,1985-06-17,2.11,Kawasaki Brave Thunders,Japan
+Japón,Escolta(SG),24,"Tanaka, Daiki",NA,1991-09-03,1.93,Toyota Alvark,Japan
+Japón,Pívot(C),32,"Schafer, Avi",NA,1998-01-28,2.03,Shiga Lakestars,Japan
+Turquía,Base(PG),1,"Wilbekin, Scottie",NA,1993-04-05,1.88,Maccabi Tel Aviv,Israel
+Turquía,Base(PG),4,"Balbay, Doğuş",NA,1989-01-21,1.85,Anadolu Efes,Turkey
+Turquía,Alero(SF),5,"Birsen, Metecan",NA,1995-04-06,2.08,Anadolu Efes,Turkey
+Turquía,Alero(SF),6,"Osman, Cedi",NA,1995-04-08,2.03,Cleveland Cavaliers,United States
+Turquía,Ala-pívot(PF),8,"İlyasova, Ersan",NA,1987-05-15,2.08,Milwaukee Bucks,United States
+Turquía,Pívot(C),9,"Erden, Semih",NA,1986-07-28,2.13,Beşiktaş,Turkey
+Turquía,Escolta(SG),10,"Mahmutoğlu, Melih",NA,1990-05-12,1.91,Fenerbahçe,Turkey
+Turquía,Ala-pívot(PF),11,"Arar, Ege",NA,1996-09-02,2.08,Galatasaray,Turkey
+Turquía,Escolta(SG),19,"Tuncer, Buğrahan",NA,1993-03-23,1.93,Anadolu Efes,Turkey
+Turquía,Pívot(C),21,"Şanlı, Sertaç",NA,1991-08-05,2.13,Anadolu Efes,Turkey
+Turquía,Escolta(SG),22,"Korkmaz, Furkan",NA,1997-07-24,2.01,Philadelphia 76ers,United States
+Turquía,Escolta(SG),24,"Arslan, Yiğit",NA,1996-05-12,1.94,Galatasaray,Turkey
+EE. UU.,Guardia(G),4,"White, Derrick",NA,1994-07-02,1.96,San Antonio Spurs,United States
+EE. UU.,Guardia(G),5,"Mitchell, Donovan",NA,1996-09-07,1.91,Utah Jazz,United States
+EE. UU.,Guardia(G),6,"Harris, Joe",NA,1991-09-06,1.98,Brooklyn Nets,United States
+EE. UU.,Guardia(G),7,"Smart, Marcus",NA,1994-03-06,1.93,Boston Celtics,United States
+EE. UU.,Alero(F),8,"Barnes, Harrison",NA,1992-05-30,2.03,Sacramento Kings,United States
+EE. UU.,Alero(F),9,"Brown, Jaylen",NA,1996-10-24,2.01,Boston Celtics,United States
+EE. UU.,Alero(F),10,"Tatum, Jayson",NA,1998-03-03,2.03,Boston Celtics,United States
+EE. UU.,Pívot(C),11,"Plumlee, Mason",NA,1990-03-05,2.11,Denver Nuggets,United States
+EE. UU.,Pívot(C),12,"Turner, Myles",NA,1996-03-24,2.11,Indiana Pacers,United States
+EE. UU.,Pívot(C),13,"Lopez, Brook",NA,1988-01-04,2.13,Milwaukee Bucks,United States
+EE. UU.,Alero(F),14,"Middleton, Khris",NA,1991-08-12,2.03,Milwaukee Bucks,United States
+EE. UU.,Guardia(G),15,"Walker, Kemba",NA,1990-05-08,1.85,Charlotte Hornets,United States
+Brasil,Base(PG),2,"dos Santos, Yago",NA,1999-03-09,1.78,Paulistano,Brazil
+Brasil,Base(PG),5,"Luz, Rafa",NA,1992-02-11,1.88,UCAM Murcia,Spain
+Brasil,Ala-pívot(PF),6,"Felício, Cristiano",NA,1992-07-07,2.08,Chicago Bulls,United States
+Brasil,Escolta(SG),8,"Benite, Vítor",NA,1990-02-20,1.91,San Pablo Burgos,Spain
+Brasil,Base(PG),9,"Huertas, Marcelo",NA,1983-05-25,1.91,Iberostar Tenerife,Spain
+Brasil,Alero(SF),10,"Garcia, Alex",NA,1980-03-04,1.93,Minas,Brazil
+Brasil,Pívot(C),11,"Varejão, Anderson",NA,1982-09-28,2.11,Flamengo,Brazil
+Brasil,Ala-pívot(PF),14,"Vieira, Marquinhos",NA,1984-05-31,2.06,Flamengo,Brazil
+Brasil,Escolta(SG),19,"Barbosa, Leandro",NA,1982-11-28,1.91,Minas,Brazil
+Brasil,Pívot(C),23,"Lima, Augusto",NA,1991-09-17,2.08,San Pablo Burgos,Spain
+Brasil,Alero(SF),24,"Louzada, Didi",NA,1999-07-02,1.95,Sydney Kings,Australia
+Brasil,Ala-pívot(PF),50,"Caboclo, Bruno",NA,1995-09-20,2.06,Memphis Grizzlies,United States
+Grecia,Escolta(SG),5,"Larentzakis, Giannoulis",NA,1993-09-22,1.96,AEK Athens,Greece
+Grecia,Base(PG),8,"Calathes, Nick",NA,1989-02-07,1.98,Panathinaikos,Greece
+Grecia,Pívot(C),9,"Bourousis, Ioannis",TRUE,1983-05-17,2.15,Gran Canaria,Spain
+Grecia,Escolta(SG),10,"Sloukas, Kostas",NA,1990-01-15,1.9,Fenerbahçe Beko,Turkey
+Grecia,Pívot(C),14,"Papagiannis, Georgios",NA,1997-07-03,2.18,Panathinaikos,Greece
+Grecia,Ala-pívot(PF),15,"Printezis, Georgios",NA,1985-02-22,2.06,Olympiacos,Greece
+Grecia,Alero(SF),16,"Papanikolaou, Kostas",NA,1990-07-31,2.04,Olympiacos,Greece
+Grecia,Base(PG),17,"Mantzaris, Vangelis",NA,1990-04-16,1.96,UNICS Kazan,Russia
+Grecia,Alero(SF),19,"Papapetrou, Ioannis",NA,1994-03-30,2.06,Panathinaikos,Greece
+Grecia,Ala-pívot(PF),21,"Vasilopoulos, Panagiotis",NA,1984-02-08,2.05,Peristeri,Greece
+Grecia,Ala-pívot(PF),34,"Antetokounmpo, Giannis",NA,1994-12-06,2.11,Milwaukee Bucks,United States
+Grecia,Alero(SF),43,"Antetokounmpo, Thanasis",NA,1992-07-18,2.01,Milwaukee Bucks,United States
+Montenegro,Pívot(C),4,"Vučević, Nikola",NA,1990-10-24,2.13,Orlando Magic,United States
+Montenegro,Base(PG),5,"Needham, Derek",NA,1990-10-20,1.8,Mornar,Montenegro
+Montenegro,Alero(SF),6,"Šehović, Suad",NA,1987-02-19,1.97,Budućnost,Montenegro
+Montenegro,Ala-pívot(PF),7,"Radović, Nemanja",NA,1991-11-11,2.08,Zaragoza,Spain
+Montenegro,Escolta(SG),8,"Šehović, Sead",NA,1989-08-22,1.96,Mornar,Montenegro
+Montenegro,Escolta(SG),10,"Popović, Aleksa",NA,1987-07-31,2.01,Lovćen,Montenegro
+Montenegro,Pívot(C),11,"Todorović, Marko",NA,1992-04-19,2.11,Joventut,Spain
+Montenegro,Ala-pívot(PF),14,"Dubljević, Bojan",NA,1991-10-24,2.05,Valencia,Spain
+Montenegro,Base(PG),20,"Ivanović, Nikola",NA,1994-02-19,1.9,Budućnost,Montenegro
+Montenegro,Alero(SF),23,"Radončić, Dino",NA,1999-01-08,2.03,UCAM Murcia,Spain
+Montenegro,Escolta(SG),30,"Popović, Petar",NA,1996-09-13,1.92,Budućnost,Montenegro
+Montenegro,Ala-pívot(PF),51,"Bjelica, Milko",NA,1984-06-04,2.07,Mornar,Montenegro
+Nueva Zelanda,Guardia(G),0,"Webster, Tai",NA,1995-05-29,1.93,Galatasaray,Turkey
+Nueva Zelanda,Alero(F),3,"Delany, Finn",NA,1995-08-12,2,New Zealand Breakers,New Zealand
+Nueva Zelanda,Base(PG),5,"Ili, Shea",NA,1992-10-06,1.83,Melbourne United,Australia
+Nueva Zelanda,Base(PG),6,"Kenny, Jarrod",NA,1985-09-17,1.86,Cairns Taipans,Australia
+Nueva Zelanda,Escolta(SG),9,"Webster, Corey",TRUE,1988-11-29,1.86,New Zealand Breakers,New Zealand
+Nueva Zelanda,Alero(SF),10,"Abercrombie, Thomas",NA,1987-07-05,1.98,New Zealand Breakers,New Zealand
+Nueva Zelanda,Pívot(C),14,"Loe, Robert",NA,1991-08-05,2.11,New Zealand Breakers,New Zealand
+Nueva Zelanda,Ala-pívot(PF),16,"Smith-Milner, Tohi",NA,1995-10-06,2.05,Melbourne United,Australia
+Nueva Zelanda,Alero(SF),20,"Ngatai, Jordan",NA,1993-03-07,1.95,New Zealand Breakers,New Zealand
+Nueva Zelanda,Escolta(SG),25,"Rusbatch, Ethan",NA,1992-05-04,1.96,Hawke's Bay Hawks,New Zealand
+Nueva Zelanda,Pívot(C),35,"Pledger, Alex",NA,1987-03-27,2.15,Melbourne United,Australia
+Nueva Zelanda,Ala-pívot(PF),42,"Fotu, Isaac",NA,1993-12-18,2.03,Universo Treviso Basket,Italy
+República Dominicana,Alero(SF),1,"Peña, Dagoberto",NA,1988-06-14,1.98,Breogán,Spain
+República Dominicana,Escolta(SG),2,"Mendoza, Rigoberto",NA,1992-07-06,1.91,Santeros de Aguada,Puerto Rico
+República Dominicana,Base(PG),5,"Liz, Víctor",NA,1986-12-05,1.83,Leones de Ponce,Puerto Rico
+República Dominicana,Escolta(SG),7,"Rojas, Sadiel",NA,1989-07-16,1.93,UCAM Murcia,Spain
+República Dominicana,Alero(SF),9,"Suero, Juan Miguel",NA,1993-05-11,1.96,Mauricio Báez,Dominican Republic
+República Dominicana,Pívot(C),11,"Vargas, Eloy",NA,1988-12-30,2.11,Trotamundos,Venezuela
+República Dominicana,Ala-pívot(PF),13,"Báez, Eulis",NA,1982-03-18,1.98,Manresa,Spain
+República Dominicana,Base(PG),14,"Ramón, Ronald",NA,1986-01-14,1.83,Mauricio Báez,Dominican Republic
+República Dominicana,Base(PG),24,"Solano, Gelvis",NA,1994-06-01,1.85,Olimpico LB,Argentina
+República Dominicana,Pívot(C),33,"Roberts, Ronald",NA,1991-08-05,2.03,Elan Chalonnais,France
+República Dominicana,Ala-pívot(PF),41,"Garcia, Juan",NA,1989-04-22,2.01,TAU Castelló,Spain
+República Dominicana,Alero(SF),44,"Montero, Luis David",NA,1993-04-06,2.01,Cocodrilos,Venezuela
+Francia,Base(PG),1,"Ntilikina, Frank",NA,1998-07-28,2.01,New York Knicks,United States
+Francia,Ala-pívot(PF),2,"M'Baye, Amath",NA,1989-12-14,2.09,Pınar Karşıyaka,Turkey
+Francia,Alero(SF),5,"Batum, Nicolas",NA,1988-12-14,2.04,Charlotte Hornets,United States
+Francia,Escolta(SG),10,"Fournier, Evan",NA,1992-10-29,2.01,Orlando Magic,United States
+Francia,Base(PG),12,"de Colo, Nando",NA,1987-06-23,1.96,Fenerbahçe,Turkey
+Francia,Pívot(C),17,"Poirier, Vincent",NA,1993-10-27,2.11,Boston Celtics,United States
+Francia,Base(PG),21,"Albicy, Andrew",NA,1990-03-21,1.78,Zenit Saint Petersburg,Russia
+Francia,Ala-pívot(PF),25,"Labeyrie, Louis",NA,1992-02-11,2.1,Valencia Basket,Spain
+Francia,Pívot(C),26,"Lessort, Mathias",NA,1995-09-29,2.08,Bayern Munich,Germany
+Francia,Pívot(C),27,"Gobert, Rudy",NA,1992-06-26,2.19,Utah Jazz,United States
+Francia,Alero(SF),33,"Toupane, Axel",NA,1992-07-23,2.03,Unicaja,Spain
+Francia,Escolta(SG),90,"Lacombe, Paul",NA,1990-06-12,1.91,AS Monaco,France
+Alemania,Base(PG),4,"Lô, Maodo",NA,1992-03-12,1.91,Bayern Munich,Germany
+Alemania,Alero(SF),5,"Giffey, Niels",NA,1991-06-08,2.01,Alba Berlin,Germany
+Alemania,Pívot(C),7,"Voigtmann, Johannes",NA,1992-09-30,2.11,CSKA Moscow,Russia
+Alemania,Base(PG),8,"Akpınar, İsmet",NA,1995-05-22,1.91,Beşiktaş Istanbul,Turkey
+Alemania,Ala-pívot(PF),10,"Theis, Daniel",NA,1992-04-04,2.03,Boston Celtics,United States
+Alemania,Alero(SF),12,"Benzing, Robin",TRUE,1989-01-25,2.08,CAI Zaragoza,Spain
+Alemania,Base(PG),17,"Schröder, Dennis",NA,1993-09-15,1.85,Oklahoma City Thunder,United States
+Alemania,Alero(SF),21,"Zipser, Paul",NA,1994-02-18,2.07,Bayern Munich,Germany
+Alemania,Ala-pívot(PF),22,"Barthel, Danilo",NA,1991-10-24,2.08,Bayern Munich,Germany
+Alemania,Pívot(C),24,"Kleber, Maximilian",NA,1992-01-21,2.11,Dallas Mavericks,United States
+Alemania,Ala-pívot(PF),32,"Thiemann, Johannes",NA,1994-02-09,2.08,Alba Berlin,Germany
+Alemania,Escolta(SG),42,"Obst, Andreas",NA,1996-07-13,1.91,Ulm,Germany
+Jordania,Base(PG),0,Mahmoud Abdeen,NA,1987-12-23,1.9,Al-Wehdat SC,Jordan
+Jordania,Escolta(SG),1,Amin Abu Hawwas,NA,1994-04-26,1.9,Orthodox (Jordan),Jordan
+Jordania,Alero(SF),2,Dar Tucker (NP),NA,1988-04-11,1.93,San Lorenzo,Argentina
+Jordania,Base(PG),4,Jordan Dasuqi,NA,1994-11-29,1.8,Lake Superior St.,United States
+Jordania,Escolta(SG),5,Freddy Ibrahim,NA,1996-01-26,1.9,Orthodox (Jordan),Jordan
+Jordania,Alero(SF),7,Ahmad Al-Hamarsheh,NA,1986-10-10,1.97,Al-Wehdat SC,Jordan
+Jordania,Ala-pívot(PF),12,Yousef Abuwazaneh,NA,1993-12-06,2.01,Orthodox (Jordan),Jordan
+Jordania,Pívot(C),13,Mohammad Shaher,NA,1990-03-03,2.08,Al-Ahli SC (Amman),Jordan
+Jordania,Ala-pívot(PF),15,Zaid Abbas,NA,1983-11-21,2.03,NA,NA
+Jordania,Base(PG),22,Ahmed Obeid,NA,1990-08-24,1.85,NA,NA
+Jordania,Alero(SF),23,Mousa Al-Awadi,NA,1985-07-20,1.93,Al-Ahli SC (Amman),Jordan
+Jordania,Pívot(C),44,Ahmet Düverioğlu,NA,1993-03-04,2.13,Fenerbahçe Basketball,Turkey
+Australia,Base(PG),2,"Sobey, Nathan",NA,1990-07-14,1.88,Brisbane Bullets,Australia
+Australia,Escolta(SG),3,"Gliddon, Cameron",NA,1989-08-16,1.97,Brisbane Bullets,Australia
+Australia,Escolta(SG),4,"Goulding, Chris",NA,1988-10-24,1.92,Melbourne United,Australia
+Australia,Guardia(G),5,"Mills, Patty",NA,1988-08-11,1.83,San Antonio Spurs,United States
+Australia,Pívot(C),6,"Bogut, Andrew",NA,1984-11-28,2.13,Sydney Kings,Australia
+Australia,Alero(SF),7,"Ingles, Joe",NA,1987-10-02,2.03,Utah Jazz,United States
+Australia,Base(PG),8,"Dellavedova, Matthew",NA,1990-09-08,1.92,Cleveland Cavaliers,United States
+Australia,Ala-pívot(PF),11,"Kay, Nick",NA,1992-08-03,2.06,Perth Wildcats,Australia
+Australia,Pívot(C),12,"Baynes, Aron",NA,1986-12-09,2.08,Phoenix Suns,United States
+Australia,Alero(F),20,"Barlow, David",NA,1983-10-22,2.03,Melbourne United,Australia
+Australia,Ala-pívot(PF),34,"Landale, Jock",NA,1995-10-25,2.11,Žalgiris Kaunas,Lithuania
+Australia,Alero(SF),55,"Creek, Mitch",NA,1992-04-27,1.96,South East Melbourne Phoenix,Australia
+Canadá,Base(PG),1,"Pangos, Kevin",NA,1993-01-26,1.88,FC Barcelona,Spain
+Canadá,Alero(SF),3,"Ejim, Melvin",NA,1991-03-04,1.98,Unicaja Málaga,Spain
+Canadá,Escolta(SG),4,"Heslip, Brady",NA,1990-06-19,1.88,Istanbul BB,Turkey
+Canadá,Base(PG),6,"Joseph, Cory",NA,1991-08-20,1.91,Sacramento Kings,United States
+Canadá,Base(PG),10,"Kajami-Keane, Kaza",NA,1994-01-27,1.88,Mitteldeutscher BC,Germany
+Canadá,Base(PG),11,"Nembhard, Andrew",NA,2000-01-16,1.96,Florida Gators,United States
+Canadá,Ala-pívot(PF),13,"Morgan, Conor",NA,1994-08-03,2.06,Joventut Badalona,Spain
+Canadá,Ala-pívot(PF),17,"Klassen, Owen",NA,1991-10-31,2.08,Telenet Giants Antwerp,Belgium
+Canadá,Alero(SF),21,"Scrubb, Thomas",NA,1991-09-26,2.01,SIG Strasbourg,France
+Canadá,Base(PG),23,"Scrubb, Phil",NA,1992-11-27,1.93,Movistar Estudiantes,Spain
+Canadá,Pívot(C),24,"Birch, Khem",NA,1992-09-28,2.06,Orlando Magic,United States
+Canadá,Ala-pívot(PF),33,"Wiltjer, Kyle",NA,1992-10-20,2.08,Türk Telekom,Turkey
+Lituania,Base(PG),5,"Kalnietis, Mantas",TRUE,1986-09-06,1.96,ASVEL,France
+Lituania,Alero(SF),8,"Mačiulis, Jonas",NA,1985-02-10,1.98,AEK Athens,Greece
+Lituania,Escolta(SG),10,"Seibutis, Renaldas",NA,1985-07-23,1.96,Zaragoza,Spain
+Lituania,Pívot(C),11,"Sabonis, Domantas",NA,1996-05-03,2.11,Indiana Pacers,United States
+Lituania,Ala-pívot(PF),13,"Jankūnas, Paulius",NA,1984-04-29,2.05,Žalgiris Kaunas,Lithuania
+Lituania,Pívot(C),17,"Valančiūnas, Jonas",NA,1992-05-06,2.13,Memphis Grizzlies,United States
+Lituania,Ala-pívot(PF),19,"Kuzminskas, Mindaugas",NA,1989-10-19,2.06,Olimpia Milano,Italy
+Lituania,Escolta(SG),31,"Giedraitis, Rokas",NA,1992-08-16,2,Alba Berlin,Germany
+Lituania,Escolta(SG),40,"Grigonis, Marius",NA,1994-04-26,1.98,Žalgiris Kaunas,Lithuania
+Lituania,Base(PG),43,"Lekavičius, Lukas",NA,1994-03-30,1.81,Panathinaikos,Greece
+Lituania,Alero(SF),51,"Butkevičius, Arnas",NA,1992-10-10,1.97,Rytas Vilnius,Lithuania
+Lituania,Alero(SF),92,"Ulanovas, Edgaras",NA,1992-01-07,1.98,Žalgiris Kaunas,Lithuania
+Senegal,Alero(SF),1,"Ndour, Maurice",NA,1992-06-18,2.06,Valencia Basket,Spain
+Senegal,Ala-pívot(PF),2,"Thiam, Djibril",NA,1986-07-06,2.06,Étoile Charleville-Mézières,France
+Senegal,Base(PG),5,"D'Almeida, Xane",NA,1983-01-21,1.83,Étoile Charleville-Mézières,France
+Senegal,Ala-pívot(PF),7,"Diop, Pape",NA,1996-01-01,2.07,BC Tallinna Kalev,Estonia
+Senegal,Base(PG),10,"Sambe, Lamine",NA,1989-12-15,1.96,ADA Blois Basket 41,France
+Senegal,Ala-pívot(PF),11,"Faye, Mouhammad",NA,1985-09-14,2.08,Crvena Zvezda,Serbia
+Senegal,Pívot(C),13,"N'Diaye, Hamady",NA,1987-01-12,2.13,BCM Gravelines-Dunkerque,France
+Senegal,Pívot(C),15,"Ndoye, Youssou",NA,1991-07-15,2.13,JL Bourg,France
+Senegal,Escolta(SG),25,"Ndoye, Momar",NA,1995-07-13,2.01,JA Vichy,France
+Senegal,Alero(SF),28,"Fall Faye, Ibrahima",NA,1997-01-10,2.06,Antwerp Giants,Belgium
+Senegal,Escolta(SG),31,"Toure, Babacar",NA,1985-11-14,2.05,Fribourg Olympic,Switzerland
+Senegal,Pívot(C),35,"Gueye, Makhtar",NA,1997-01-07,2.08,UAB Blazers,United States

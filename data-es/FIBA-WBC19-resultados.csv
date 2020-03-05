@@ -1,0 +1,93 @@
+fecha,local,puntos_local,visitante,puntos_visitante
+2019-08-31,Angola,59,Serbia,105
+2019-08-31,Argentina,95,Corea del Sur,69
+2019-08-31,Irán,81,Puerto Rico,83
+2019-08-31,Costa de Marfil,55,China,70
+2019-08-31,Filipinas,62,Italia,108
+2019-08-31,Polonia,80,Venezuela,69
+2019-08-31,Rusia,82,Nigeria,77
+2019-08-31,España,101,Túnez,62
+2019-09-01,Canadá,92,Australia,108
+2019-09-01,República Checa,67,EE. UU.,88
+2019-09-01,República Dominicana,80,Jordania,76
+2019-09-01,Francia,78,Alemania,74
+2019-09-01,Grecia,85,Montenegro,60
+2019-09-01,Nueva Zelanda,94,Brasil,102
+2019-09-01,Senegal,47,Lituania,101
+2019-09-01,Turquía,86,Japón,67
+2019-09-02,China,76,Polonia,79
+2019-09-02,Italia,92,Angola,61
+2019-09-02,Corea del Sur,73,Rusia,87
+2019-09-02,Nigeria,81,Argentina,94
+2019-09-02,Puerto Rico,63,España,73
+2019-09-02,Serbia,126,Filipinas,67
+2019-09-02,Túnez,79,Irán,67
+2019-09-02,Venezuela,87,Costa de Marfil,71
+2019-09-03,Australia,81,Senegal,68
+2019-09-03,Brasil,79,Grecia,78
+2019-09-03,Alemania,68,República Dominicana,70
+2019-09-03,Japón,76,República Checa,89
+2019-09-03,Jordania,64,Francia,103
+2019-09-03,Lituania,92,Canadá,69
+2019-09-03,Montenegro,83,Nueva Zelanda,93
+2019-09-03,EE. UU.,93,Turquía,92
+2019-09-04,Angola,84,Filipinas,81
+2019-09-04,Italia,77,Serbia,92
+2019-09-04,Costa de Marfil,63,Polonia,80
+2019-09-04,Corea del Sur,66,Nigeria,108
+2019-09-04,Puerto Rico,67,Túnez,64
+2019-09-04,Rusia,61,Argentina,69
+2019-09-04,España,73,Irán,65
+2019-09-04,Venezuela,72,China,59
+2019-09-05,Brasil,84,Montenegro,73
+2019-09-05,Canadá,82,Senegal,60
+2019-09-05,República Dominicana,56,Francia,90
+2019-09-05,Alemania,96,Jordania,62
+2019-09-05,Grecia,103,Nueva Zelanda,97
+2019-09-05,Lituania,82,Australia,87
+2019-09-05,Turquía,76,República Checa,91
+2019-09-05,EE. UU.,98,Japón,45
+2019-09-06,Angola,62,Irán,71
+2019-09-06,Argentina,87,Venezuela,67
+2019-09-06,China,77,Corea del Sur,73
+2019-09-06,Nigeria,83,Costa de Marfil,66
+2019-09-06,Polonia,79,Rusia,74
+2019-09-06,Serbia,90,Puerto Rico,47
+2019-09-06,España,67,Italia,60
+2019-09-06,Túnez,86,Filipinas,67
+2019-09-07,Australia,82,República Dominicana,76
+2019-09-07,Brasil,71,República Checa,93
+2019-09-07,Canadá,126,Jordania,71
+2019-09-07,Francia,78,Lituania,75
+2019-09-07,Alemania,89,Senegal,78
+2019-09-07,Nueva Zelanda,111,Japón,81
+2019-09-07,Turquía,79,Montenegro,74
+2019-09-07,EE. UU.,69,Grecia,53
+2019-09-08,China,73,Nigeria,86
+2019-09-08,Irán,95,Filipinas,75
+2019-09-08,Costa de Marfil,71,Corea del Sur,80
+2019-09-08,Polonia,65,Argentina,91
+2019-09-08,Puerto Rico,89,Italia,94
+2019-09-08,España,81,Serbia,69
+2019-09-08,Túnez,86,Angola,84
+2019-09-08,Venezuela,60,Rusia,69
+2019-09-09,República Checa,77,Grecia,84
+2019-09-09,República Dominicana,55,Lituania,74
+2019-09-09,Francia,98,Australia,100
+2019-09-09,Alemania,82,Canadá,76
+2019-09-09,Japón,65,Montenegro,80
+2019-09-09,Jordania,79,Senegal,77
+2019-09-09,Turquía,101,Nueva Zelanda,102
+2019-09-09,EE. UU.,89,Brasil,73
+2019-09-10,Argentina,97,Serbia,87
+2019-09-10,España,90,Polonia,78
+2019-09-11,Australia,82,República Checa,70
+2019-09-11,EE. UU.,79,Francia,89
+2019-09-12,Polonia,84,República Checa,94
+2019-09-12,Serbia,94,EE. UU.,89
+2019-09-13,Argentina,80,Francia,66
+2019-09-13,España,95,Australia,88
+2019-09-14,Serbia,90,República Checa,81
+2019-09-14,EE. UU.,87,Polonia,74
+2019-09-15,Argentina,75,España,95
+2019-09-15,Francia,67,Australia,59

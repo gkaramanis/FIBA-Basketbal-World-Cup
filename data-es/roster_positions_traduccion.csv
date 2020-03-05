@@ -1,0 +1,9 @@
+position,position_desc_en,position_desc_es
+SG,Shooting guard,Escolta(SG)
+PG,Point guard,Base(PG)
+SF,Small forward,Alero(SF)
+PF,Power forward,Ala-pívot(PF)
+C,Center,Pívot(C)
+G,Guard,Guardia(G)
+F,Forward,Alero(F)
+G/F,Guard/Forward,Guardia/Alero(G/F)
